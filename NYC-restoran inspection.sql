@@ -71,7 +71,7 @@ WHERE inspection_date IS NOT NULL
 GROUP BY inspeaction_dates_from_2015_to_2020
 ORDER BY number_of_inspections;
  
--- Which distring of NYC has the worste restoran grades
+-- Which district of NYC has the worste restoran grades
 SELECT boro, grade, COUNT(REGEXP_REPLACE(grade, '[^[:print:]]', '')) AS number_of_grades
 FROM nyc_restoran_inspections
 WHERE grade IS NOT NULL AND TRIM(grade) <> ''
