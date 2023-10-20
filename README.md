@@ -1,1 +1,1 @@
-# As a database was used NYC restaurant inspection dataset, here in this project firstly duplicated data was cheked and then looking for the restorans with the most A grade, best 10 restoran, their violation codes etc.
+# As a database was used NYC restaurant inspection dataset, some of the skills used : Data Transformation, Data Cleaning and Data Analysis.
